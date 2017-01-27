@@ -1,0 +1,18 @@
+.bg-green {
+    background-image: url('../../images/main-page-big.jpg');
+}
+
+.person {
+    background-image: url('../../images/person.svg');
+}
+
+
+/*svg*/
+.logo-link:hover .st0 {
+    fill: #48577C;
+}
+
+.st0{
+    transition: 0.3s;
+    fill:#FFFABD;
+}
