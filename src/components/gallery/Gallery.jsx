@@ -4,102 +4,20 @@ import styled from 'styled-components';
 import GalleryImage from './GalleryImage';
 import './gallery.css';
 
+import fineData from './fineData';
+import graphData from './graphData';
+
 export class Art extends Component {
 
     constructor(props) {
+        const fineArt = 'fine-art';
+        const graphic = 'graphic-design';
+
         super(props);
-        if(props.route.path === 'fine-art') {
-            this.state = {
-                'oil and drawings': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ],
-                    option: 'long'
-                },
-                'portreture': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ],
-                    option: ''
-                }
-            }
+        if( props.route.path === fineArt ) {
+            this.state = fineData;
         } else if ( props.route.path === 'graphic-design' ) {
-            this.state = {
-                'posters and illustrators': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ]
-                },
-                'logos': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ]
-                },
-                'ads/filters': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ]
-                },
-                'typography': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ]
-                },
-                'other': {
-                    images: [
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350" ,
-                        "http://placehold.it/350x350"
-                    ]
-                }
-            }
+            this.state = graphData;
         }
     }
 
@@ -107,7 +25,7 @@ export class Art extends Component {
         return Object.keys(this.state).map( (val, index) => {
             return (
                 <ContentWrap key={index}>
-                    <Title option={this.state[val].option} >{val}</Title>
+                    <Title position={this.state[val].position} >{this.state[val].title}</Title>
                     <Content>
                         <GalleryList>
                             {this.renderImages(val)}
@@ -118,15 +36,16 @@ export class Art extends Component {
         })
     }
 
-    renderImages(e) {
-        const imagesArr = this.state[e].images;
+    renderImages(id) {
+        const imagesArr = this.state[id].images;
 
         return imagesArr.map( (val, index) => {
-            return <GalleryImage key={index} image={val}/>;
+            return <GalleryImage key={index} {...val}/>;
         });
     }
 
     render() {
+        console.log(process.env.PUBLIC_URL);
         return (
             <Wrapper className="bg-blue">
                 {this.renderContent()}
@@ -168,10 +87,30 @@ const Title = styled.div`
     position: absolute;
     top: ${
             (props) => {
-                if (props.option === 'long') {
-                    return '185px'
-                } else {
-                    return '114px'
+                switch (props.position) {
+                    case 'oil':
+                        return '185px';
+
+                    case 'portraiture':
+                        return '134px';
+
+                    case 'posters':
+                        return '280px';
+
+                    case 'logos':
+                        return '80px';
+
+                    case 'ads':
+                        return '135px';
+
+                    case 'typography':
+                        return '135px';
+
+                    case 'other':
+                        return '80px';
+
+                    default:
+                        return '114px';
                 }
             }
         };
