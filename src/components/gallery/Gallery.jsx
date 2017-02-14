@@ -16,7 +16,7 @@ export class Art extends Component {
         super(props);
         if( props.route.path === fineArt ) {
             this.state = fineData;
-        } else if ( props.route.path === 'graphic-design' ) {
+        } else if ( props.route.path === graphic ) {
             this.state = graphData;
         }
     }
@@ -45,7 +45,6 @@ export class Art extends Component {
     }
 
     render() {
-        console.log(process.env.PUBLIC_URL);
         return (
             <Wrapper className="bg-blue">
                 {this.renderContent()}
