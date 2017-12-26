@@ -1,320 +1,272 @@
 export default {
-    0: {
-        title: 'posters and illustrators',
-        position: 'posters',
-        images: [
-            {
-                original: "../../images/posters/bereg-nila-orig.jpg",
-                thumbnail: "../../images/posters/bereg-nila.jpg",
-                name: "Bereg Nila",
-                description: ""
-            },
-            {
-                original: "../../images/posters/E-blast-01-orig.jpg",
-                thumbnail: "../../images/posters/E-blast-01.jpg",
-                name: "E-blast",
-                description: ""
-            },
-            {
-                original: "../../images/posters/mission-banner-small-orig.jpg",
-                thumbnail: "../../images/posters/mission-banner-small.jpg",
-                name: "Mission banner small",
-                description: ""
-            },
-            {
-                original: "../../images/posters/stefan-orig.jpg",
-                thumbnail: "../../images/posters/stefan.jpg",
-                name: "Stefan",
-                description: ""
-            },
-            {
-                original: "../../images/posters/vF-Student-marketing-orig.jpg",
-                thumbnail: "../../images/posters/vF-Student-marketing.jpg",
-                name: "VF Student marketing",
-                description: ""
-            },
-            {
-                original: "../../images/posters/composting-sign-orig.jpg",
-                thumbnail: "../../images/posters/composting-sign.jpg",
-                name: "Composting sign",
-                description: ""
-            },
-            {
-                original: "../../images/posters/lovely-ladies-orig.jpg",
-                thumbnail: "../../images/posters/lovely-ladies.jpg",
-                name: "Lovely ladies",
-                description: ""
-            },
-            {
-                original: "../../images/posters/Portrait-2-orig.jpg",
-                thumbnail: "../../images/posters/Portrait-2.jpg",
-                name: "Portrait 2",
-                description: ""
-            },
-            {
-                original: "../../images/posters/study-rooms-Flier-orig.jpg",
-                thumbnail: "../../images/posters/study-rooms-Flier-print.jpg",
-                name: "Study rooms flier print",
-                description: ""
-            },
-            {
-                original: "../../images/posters/website-Header-orig.png",
-                thumbnail: "../../images/posters/website-Header.jpg",
-                name: "Website Header",
-                description: ""
-            },
-            {
-                original: "../../images/posters/coupon-Book-Promo-FB-orig.jpg",
-                thumbnail: "../../images/posters/coupon-Book-Promo-FB.jpg",
-                name: "Coupon Book Promo FB",
-                description: ""
-            },
-            {
-                original: "../../images/posters/Melancholia-orig.jpg",
-                thumbnail: "../../images/posters/Melancholia.jpg",
-                name: "Melancholia",
-                description: ""
-            },
-            {
-                original: "../../images/posters/portrait-eyes-orig.jpg",
-                thumbnail: "../../images/posters/portrait-eyes.jpg",
-                name: "Portrait eyes",
-                description: ""
-            },
-            {
-                original: "../../images/posters/study-week-image-orig.jpg",
-                thumbnail: "../../images/posters/study-week-image.jpg",
-                name: "Study week image",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            }
-        ]
-    },
-    1: {
-        title: 'logos',
-        position: 'logos',
-        images: [
-            {
-                original: "../../images/logos/bare-Bones-Games-orig.jpg",
-                thumbnail: "../../images/logos/bare-Bones-Games.jpg",
-                name: "Bare Bones Games",
-                description: ""
-            },
-            {
-                original: "../../images/logos/brush-Studio-orig.jpg",
-                thumbnail: "../../images/logos/brush-Studio.jpg",
-                name: "Brush Studi",
-                description: ""
-            },
-            {
-                original: "../../images/logos/hot-rod-final-orig.jpg",
-                thumbnail: "../../images/logos/hot-rod-final.jpg",
-                name: "Hot rod final",
-                description: ""
-            },
-            {
-                original: "../../images/logos/personal-Logo-orig.jpg",
-                thumbnail: "../../images/logos/personal-Logo.jpg",
-                name: "Personal Logo",
-                description: ""
-            },
-            {
-                original: "../../images/logos/smart-Hospitality-orig.jpg",
-                thumbnail: "../../images/logos/smart-Hospitality.jpg",
-                name: "Smart Hospitality",
-                description: ""
-            },
-            {
-                original: "../../images/logos/vendor-fair-orig.png",
-                thumbnail: "../../images/logos/vendor-fair.jpg",
-                name: "Vendor fair",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            }
-        ]
-    },
-    2: {
-        title: 'ads/filters',
-        position: 'ads',
-        images: [
-            {
-                original: "../../images/ads/crunch-Donuts-orig.jpg",
-                thumbnail: "../../images/ads/crunch-Donuts.jpg",
-                name: "Crunch Donuts",
-                description: ""
-            },
-            {
-                original: "../../images/ads/ihop-orig.jpg",
-                thumbnail: "../../images/ads/ihop.jpg",
-                name: "Ihop",
-                description: ""
-            },
-            {
-                original: "../../images/ads/madhouse-coffee-orig.jpg",
-                thumbnail: "../../images/ads/madhouse-coffee.jpg",
-                name: "Madhouse Coffee",
-                description: ""
-            },
-            {
-                original: "../../images/ads/paymon's-orig.jpg",
-                thumbnail: "../../images/ads/paymon's.jpg",
-                name: "Paymon's",
-                description: ""
-            },
-            {
-                original: "../../images/ads/yumz-Coupon-orig.jpg",
-                thumbnail: "../../images/ads/yumz-Coupon.jpg",
-                name: "Yumz Coupon",
-                description: ""
-            },
-            {
-                original: "../../images/ads/сlinic-Rack-Card-orig.jpg",
-                thumbnail: "../../images/ads/сlinic-Rack-Card.jpg",
-                name: "Clinic Rack Card",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            }
-        ]
-    },
-    3: {
-        title: 'typography',
-        position: 'typography',
-        images: [
-            {
-                original: "../../images/typography/dexterGordon-orig.jpg",
-                thumbnail: "../../images/typography/dexterGordon.jpg",
-                name: "Dexter Gordon",
-                description: ""
-            },
-            {
-                original: "../../images/typography/stable-orig.jpg",
-                thumbnail: "../../images/typography/stable.jpg",
-                name: "Stable",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            }
-        ]
-    },
-    4: {
-        title: 'other',
-        position: 'other',
-        images: [
-            {
-                original: "../../images/typography/dexterGordon-orig.jpg",
-                thumbnail: "../../images/typography/dexterGordon.jpg",
-                name: "Dexter Gordon",
-                description: ""
-            },
-            {
-                original: "../../images/typography/stable-orig.jpg",
-                thumbnail: "../../images/typography/stable.jpg",
-                name: "Stable",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            },
-            {
-                original: "http://placehold.it/350x350",
-                thumbnail: "http://placehold.it/350x350",
-                name: "Bad connection",
-                description: ""
-            }
-        ]
-    }
-}
+  0: {
+    title: "Various",
+    position: "various",
+    images: [
+      {
+        original: "images/various/bereg-nila-orig.jpg",
+        thumbnail: "images/various/bereg-nila.jpg",
+        name: "Music Album Cover",
+        description: ""
+      },
+      {
+        original: "images/various/cd-cover-orig.jpg",
+        thumbnail: "images/various/cd-cover.jpg",
+        name: "Record Cover Design",
+        description: ""
+      },
+      {
+        original: "images/various/e-blast-01-orig.jpg",
+        thumbnail: "images/various/e-blast-01.jpg",
+        name: "Email Ad",
+        description: ""
+      },
+      {
+        original: "images/various/mission-banner-small-orig.jpg",
+        thumbnail: "images/various/mission-banner-small.jpg",
+        name: "Company Mission Banner",
+        description: ""
+      },
+      {
+        original: "images/various/stefan-orig.jpg",
+        thumbnail: "images/various/stefan.jpg",
+        name: "Stefan Sagmeister Tribute Poster",
+        description: ""
+      },
+      {
+        original: "images/various/vf-student-marketing-orig.jpg",
+        thumbnail: "images/various/vf-student-marketing.jpg",
+        name: "University Vendor Fair Flyer.",
+        description: ""
+      },
+      {
+        original: "images/various/composting-sign-orig.jpg",
+        thumbnail: "images/various/composting-sign.jpg",
+        name: "Bathroom Sign",
+        description: ""
+      },
+      {
+        original: "images/various/lovely-ladies-orig.jpg",
+        thumbnail: "images/various/lovely-ladies.jpg",
+        name: "Rock Band Poster",
+        description: ""
+      },
+      {
+        original: "images/various/study-rooms-Flier-orig.jpg",
+        thumbnail: "images/various/study-rooms-Flier-print.jpg",
+        name: "Study Week Flyer",
+        description: ""
+      },
+      {
+        original: "images/various/website-header-orig.png",
+        thumbnail: "images/various/website-header.jpg",
+        name: "Website Header",
+        description: ""
+      },
+      {
+        original: "images/various/coupon-book-promo-fb-orig.jpg",
+        thumbnail: "images/various/coupon-book-promo-fb.jpg",
+        name: "Coupon Book Promo ",
+        description: ""
+      },
+      {
+        original: "images/various/melancholia-orig.jpg",
+        thumbnail: "images/various/melancholia.jpg",
+        name: "Movie Poster",
+        description: ""
+      },
+      {
+        original: "images/various/portrait-eyes-orig.jpg",
+        thumbnail: "images/various/portrait-eyes.jpg",
+        name: "Portrait",
+        description: ""
+      },
+      {
+        original: "images/various/study-week-image-orig.jpg",
+        thumbnail: "images/various/study-week-image.jpg",
+        name: "Study Week Post for Social Media",
+        description: ""
+      },
+      {
+        original: "images/various/baba-orig.jpg",
+        thumbnail: "images/various/baba.jpg",
+        name: "Portrait",
+        description: ""
+      },
+      {
+        original: "images/various/battery-orig.jpg",
+        thumbnail: "images/various/battery.jpg",
+        name: "Recycling Flyer",
+        description: ""
+      },
+      {
+        original: "images/various/elevator-orig.jpg",
+        thumbnail: "images/various/elevator.jpg",
+        name: "University Ad Poster",
+        description: ""
+      },
+      {
+        original: "images/various/book-orig.jpg",
+        thumbnail: "images/various/book.jpg",
+        name: "Book Cover Design",
+        description: ""
+      },
+      {
+        original: "images/various/ihop-orig.jpg",
+        thumbnail: "images/various/ihop.jpg",
+        name: "Ihop Coupon",
+        description: ""
+      },
+      {
+        original: "images/various/madhouse-coffee-orig.jpg",
+        thumbnail: "images/various/madhouse-coffee.jpg",
+        name: "Madhouse Coffee Coupon",
+        description: ""
+      },
+      {
+        original: "images/various/paymon's-orig.jpg",
+        thumbnail: "images/various/paymon's.jpg",
+        name: "Paymon's Coupon",
+        description: ""
+      },
+      {
+        original: "images/various/yumz-coupon-orig.jpg",
+        thumbnail: "images/various/yumz-coupon.jpg",
+        name: "Yumz Coupon",
+        description: ""
+      },
+      {
+        original: "images/various/сlinic-rack-card-orig.jpg",
+        thumbnail: "images/various/сlinic-rack-card.jpg",
+        name: "Clinic Rack Card",
+        description: ""
+      },
+      {
+        original: "images/various/lyliful-orig.jpg",
+        thumbnail: "images/various/lyliful.jpg",
+        name: "Lyliful Coupon",
+        description: ""
+      }
+    ]
+  },
+  1: {
+    title: "logos",
+    position: "logos",
+    images: [
+      {
+        original: "images/logos/bare-bones-games-orig.jpg",
+        thumbnail: "images/logos/bare-bones-games.jpg",
+        name: "Bare Bones Games",
+        description: ""
+      },
+      {
+        original: "images/logos/brush-studio-orig.jpg",
+        thumbnail: "images/logos/brush-studio.jpg",
+        name: "Brush Studio",
+        description: ""
+      },
+      {
+        original: "images/logos/hot-rod-final-orig.jpg",
+        thumbnail: "images/logos/hot-rod-final.jpg",
+        name: "Hot Rod ",
+        description: ""
+      },
+      {
+        original: "images/logos/personal-logo-orig.jpg",
+        thumbnail: "images/logos/personal-logo.jpg",
+        name: "Personal Logo",
+        description: ""
+      },
+      {
+        original: "images/logos/smart-hospitality-orig.jpg",
+        thumbnail: "images/logos/smart-hospitality.jpg",
+        name: "Smart Hospitality",
+        description: ""
+      },
+      {
+        original: "images/logos/vendor-fair-orig.png",
+        thumbnail: "images/logos/vendor-fair.jpg",
+        name: "Vendor Fair",
+        description: ""
+      },
+      {
+        original: "images/logos/science-orig.jpg",
+        thumbnail: "images/logos/science.jpg",
+        name: "Simple Science",
+        description: ""
+      }
+    ]
+  },
+  2: {
+    title: "typography",
+    position: "typography",
+    images: [
+      {
+        original: "images/typography/dextergordon-orig.jpg",
+        thumbnail: "images/typography/dextergordon.jpg",
+        name: "Concert Poster",
+        description: ""
+      },
+      {
+        original: "images/typography/stable-orig.jpg",
+        thumbnail: "images/typography/stable.jpg",
+        name: "Typeface in Context",
+        description: ""
+      },
+      {
+        original: "images/typography/typecalendar-orig.jpg",
+        thumbnail: "images/typography/typecalendar.jpg",
+        name: "Type Calendar",
+        description: ""
+      },
+      {
+        original: "images/typography/typespecimen-orig.jpg",
+        thumbnail: "images/typography/typespecimen.jpg",
+        name: "Typeface Specimen",
+        description: ""
+      },
+      {
+        original: "images/typography/vodkamanual-orig.jpg",
+        thumbnail: "images/typography/vodkamanual.jpg",
+        name: "Manual Brochure",
+        description: ""
+      }
+    ]
+  },
+  3: {
+    title: "packaging",
+    position: "packaging",
+    images: [
+      {
+        original: "images/packaging/bacon-orig.jpg",
+        thumbnail: "images/packaging/bacon.jpg",
+        name: "Bacon Package",
+        description: ""
+      },
+      {
+        original: "images/packaging/beer-orig.jpg",
+        thumbnail: "images/packaging/beer.jpg",
+        name: "Red's Rebranding",
+        description: ""
+      },
+      {
+        original: "images/packaging/hAndM-orig.jpg",
+        thumbnail: "images/packaging/hAndM.jpg",
+        name: "H&M Rebranding",
+        description: ""
+      },
+      {
+        original: "images/packaging/paste-orig.jpg",
+        thumbnail: "images/packaging/paste.jpg",
+        name: "Animal Toothpaste Package",
+        description: ""
+      },
+      {
+        original: "images/packaging/cake-orig.jpg",
+        thumbnail: "images/packaging/cake.jpg",
+        name: "Panettone Cake  Package Design",
+        description: ""
+      }
+    ]
+  }
+};

@@ -6,6 +6,7 @@ import router from './router';
 
 import 'reset-css';
 import './fonts/fonts.css';
+import 'font-awesome/css/font-awesome.css'
 
 const store = require('./store/configureStore').configure();
 

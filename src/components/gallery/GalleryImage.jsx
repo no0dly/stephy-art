@@ -18,8 +18,9 @@ export class GalleryImage extends Component {
     }
 
     render() {
-        const {thumbnail, original} = this.props;
+        const { thumbnail, original, name } = this.props;
         const { isOpen } = this.state;
+
         return (
             <Wrapper>
                 <LinkWrap href="#" onClick={this.openLightBox.bind(this)}>
@@ -27,6 +28,7 @@ export class GalleryImage extends Component {
                 </LinkWrap>
                 {isOpen &&
                     <Lightbox
+                        imageTitle={name}
                         mainSrc={original}
                         onCloseRequest={() => this.setState({ isOpen: false })}
                     />

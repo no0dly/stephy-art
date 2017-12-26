@@ -119,6 +119,7 @@ const Wrapper = styled.div`
     background-color: #7ebcbc;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('./images/main-page-big.jpg');
 `;
 
 const Sidebar = styled.div`
@@ -129,6 +130,9 @@ const Sidebar = styled.div`
 const LogoWrapper = styled(IndexLink)`
     display: inline-block;
     height: 100%;
+    @media (max-width: 500px) {
+      height: 90%;
+    }
 `;
 
 const Logo = styled.svg`
@@ -149,6 +153,13 @@ const Person = styled.div`
     background-size: auto auto;
     height: 100%;
     position: relative;
+
+    background-image: url('./images/person.svg');
+
+    @media (max-width: 700px) {
+      background-size: 70% 70%;
+      background-position: 90% bottom;
+    }
 `;
 
 const WrapLinkArt = styled(Link)`
@@ -172,11 +183,15 @@ const WrapLinkArt = styled(Link)`
     }
 
     @media (max-width: 1060px) {
-        right: 46%;
+      right: 46%;
     }
 
     @media (max-width: 930px) {
-        right: 50%;
+      right: 50%;
+    }
+    @media (max-width: 700px) {
+      top: 18%;
+      right: 10px;
     }
 `;
 
@@ -201,5 +216,8 @@ const WrapLinkDesign = styled(Link)`
 
     @media (max-width: 930px) {
         right: 5%;
+    }
+    @media (max-width: 700px) {
+        right: 10px;
     }
 `;
